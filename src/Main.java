@@ -12,5 +12,13 @@ public class Main {
         System.out.println(Artem);
         System.out.println(Vladimir);
         //System.out.println(spy);
+        flower Rose = new flower("Роза обыкновенная","Голландия",35.5999999,"");
+        flower Chrysanthemum = new flower("Хризантема","",15 ,"5 дней");
+        flower Peony = new flower("Пион","Англия",69.9,"1 день");
+        flower Gypsophila = new flower("Гипсофила","Турция",19.5,"10 дней");
+        System.out.println(Rose);
+        System.out.println(Chrysanthemum);
+        System.out.println(Peony);
+        System.out.println(Gypsophila);
     }
 }
