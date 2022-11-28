@@ -4,8 +4,12 @@ public class Flower {
     private final String flowerName;
     private final String country;
     private final double cost; // на вывод DecimalFormat
-    private int lifeSpan;
+    public int lifeSpan;
     String costFormat;
+
+    public double getCost() {
+        return cost;
+    }
 
     Flower(String flowerName, String country, double cost, int lifeSpan) {
         if (cost > 0) {
@@ -30,8 +34,9 @@ public class Flower {
         }
     }
         Flower (String flowerName, String country, double cost){
-            this(flowerName, country, cost, 3);
+            this(flowerName, country, cost, 3); // конструктор для случая невведения срока стояния
         }
+   // }
         @Override
         public String toString () {
             costFormat = new DecimalFormat("00.00").format(cost);
@@ -41,4 +46,4 @@ public class Flower {
                     "стоимостью за 1 шт. - " + costFormat + " рублей, " +
                     "срок стояния " + lifeSpan + " дней.";
         }
-    }
+}
