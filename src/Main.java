@@ -11,14 +11,21 @@ public class Main {
         System.out.println(Katya);
         System.out.println(Artem);
         System.out.println(Vladimir);
-        //System.out.println(spy);
-        flower Rose = new flower("Роза обыкновенная","Голландия",35.5999999,"");
-        flower Chrysanthemum = new flower("Хризантема","",15 ,"5 дней");
-        flower Peony = new flower("Пион","Англия",69.9,"1 день");
-        flower Gypsophila = new flower("Гипсофила","Турция",19.5,"10 дней");
+        System.out.println();
+        Flower Rose = new Flower("Роза обыкновенная","Голландия",35.59999);
+        Flower Chrysanthemum = new Flower("Хризантема","",15 ,5);
+        Flower Peony = new Flower("Пион","Англия",69.9,1);
+        Flower Gypsophila = new Flower("Гипсофила","Турция",19.5,10);
         System.out.println(Rose);
         System.out.println(Chrysanthemum);
         System.out.println(Peony);
         System.out.println(Gypsophila);
+        System.out.println();
+        //Bouquet Elite = new Bouquet();
+       // Elite.addFlower(Rose);
+        //Elite.addFlower(Chrysanthemum);
+        //Elite.addFlower(Peony);
+        //Elite.addFlower(Gypsophila);
+
     }
 }
